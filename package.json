@@ -1,0 +1,44 @@
+{
+  "name": "ts-ws-example",
+  "version": "1.0.0",
+  "description": "Web Storm TypeScript example",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp lint && gulp build && gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ladislavlisy/ts-ws-example.git"
+  },
+  "author": "Ladislav Lisy <ladislav.lisy@seznam.cz> (http://www.mzdyhrave.eu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ladislavlisy/ts-ws-example/issues"
+  },
+  "homepage": "https://github.com/ladislavlisy/ts-ws-example#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "browserify": "^14.4.0",
+    "chai": "^4.1.1",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^1.1.2",
+    "gulp-mocha": "^4.3.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-tslint": "^8.1.2",
+    "gulp-typescript": "^3.2.1",
+    "gulp-uglify": "^3.0.0",
+    "run-sequence": "^2.1.0",
+    "tsify": "^3.0.1",
+    "tslint": "^5.6.0",
+    "typescript": "^2.4.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "tsify": "^3.0.1"
+  }
+}
